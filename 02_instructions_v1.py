@@ -23,7 +23,11 @@ print(f"you chose {show_instructions}")
 
 
 def instructions():
-    print("you can pay an amount up to $10 to start, and each round costs $1. \nafter you pay you will be given a token, either a unicorn, a zebra, a horse, or a donkey.\nif you get unicorn, you win $5, if you get a horse or a zebra, you win $0.50,\nand if you get a donkey, you don't win any money back. \nthe game ends after you lose all your money or quit. ")
+    print("you can pay an amount up to $10 to start, and each round costs $1. \n"
+          "after you pay you will be given a token, either a unicorn, a zebra, a horse, or a donkey.\n"
+          "if you get unicorn, you win $5, if you get a horse or a zebra, you win $0.50,\n"
+          "and if you get a donkey, you don't win any money back. \n"
+          "the game ends after you lose all your money or quit. ")
 
 
 if show_instructions == "yes":
